@@ -1,1 +1,2 @@
 # weather-update
+Python script that uses weather underground API (https://www.wunderground.com/weather/api/) to get the current weather for a particular location. Depending on the current temperature some advice can be displayed e.g. put a jumper on, and a notification is then sent to Pushover (https://pushover.net/) and a is displayed on my phone. An AWS CloudWatch event is used to trigger an AWS Lambda function to run the python code.
